@@ -261,6 +261,7 @@
     padding: 2vw;
     gap: 2vw;
     background-color: #8b6767;
+    background-color: #e2e1df;
 
 
 }
@@ -333,7 +334,8 @@ a {
     padding: 2vw;
     gap: 2vw;
     /* background-color: #9c7c7c; */
-     /* background-color: #835b5c; */
+    /* background-color: #835b5c; */
+    background-color: #e2e1df;
 }
 
 .last_row_card {
@@ -423,4 +425,128 @@ h3 {
     object-fit: contain;
     /* border-radius: .3vw; */
 
+}
+
+
+/* footer */
+
+.footer {
+    height: 30vw;
+    background-color: red;
+}
+
+.footer_top {
+    height: 3.6vw;
+    background-color: #314050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_top h3 {
+    font-size: 1vw;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.footer_mid {
+    height: 21vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1d2e41;
+    padding: 2.7vw;
+    border-bottom: .1vw solid gray;
+}
+
+.one_row {
+    display: flex;
+    flex-direction: column;
+}
+
+.one_row span {
+    font-size: 1.4vw;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.one_row p {
+    font-size: 1vw;
+    color: #DDDDDD;
+    margin-top: .6vw;
+}
+
+.footer_end {
+    height: 6vw;
+    background-color: #1d2e41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw
+}
+
+.footer_end_logo {
+    height: 4vw;
+    width: 5vw;
+    /* background-color: red; */
+    margin-top: .8vw;
+
+}
+
+.footer_end_logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer_end_text {
+    display: flex;
+
+
+}
+
+.footer_end_text p {
+    font-size: 1vw;
+    color: #DDDDDD;
+}
+
+.footer_end_text_first {
+    display: flex;
+    gap: .3vw;
+    border: .1vw solid #DDDDDD;
+    /* padding: 1vw; */
+    /* background-color: red; */
+    width: 7vw;
+    height: 2vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2vw;
+}
+
+.footer_end_text_first i {
+    color: #DDDDDD;
+}
+
+.footer_end_text_sec {
+    display: flex;
+    gap: .4vw;
+    margin-left: 2vw;
+    border: .1vw solid #DDDDDD;
+    width: 6vw;
+    height: 2vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2vw;
+}
+
+.footer_end_text_sec_img {
+    height: 1.2vw;
+    width: 1.2vw;
+}
+
+.footer_end_text_sec_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
