@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -426,6 +431,90 @@ h3 {
     /* border-radius: .3vw; */
 
 }
+
+/* slider */
+
+.slider {
+    height: auto;
+    /* background-color: burlywood; */
+    padding: 1vw;
+    /* overflow-x: hidden; */
+}
+
+.slider_text {
+    display: flex;
+    gap: 2vw;
+    /* height: 2vw; */
+    /* background-color: red;    */
+    align-items: center;
+
+}
+
+.slider_text h2 {
+    font-size: 1.6vw;
+    font-weight: 600;
+    padding-top: 1.7vw;
+
+}
+
+.slider_text h5 {
+    font-size: 1vw;
+    color: #3d7ab7;
+    font-weight: 500;
+    /* background-color: red; */
+    /* margin-bottom: 1.8vw; */
+    cursor: pointer;
+
+}
+
+.slider_images {
+    /* background-color: #8b6767; */
+    height: 15vw;
+    /* width: 200%; */
+    margin-top: .6vw;
+    padding-top: .4vw;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 1vw;
+    /* flex-wrap: wrap; */
+    overflow-x: auto;
+    /* scroll-snap-type: x mandatory; */
+
+}
+
+.slide_box {
+    height: 13vw;
+    width: 16vw;
+    flex: 0 0 auto;
+    /* background-color: red; */
+}
+
+.slide_box img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.slider_images::-webkit-scrollbar {
+    height: 8px;
+    background: transparent;
+}
+
+.slider_images::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+.slider_images:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+.slider_images:hover {
+    scrollbar-width: thin;
+    /* For Firefox */
+}
+
 
 
 /* footer */
